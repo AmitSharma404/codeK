@@ -11,7 +11,8 @@ public class priorityqueue {
         queue.offer(10);
         queue.offer(3);
         queue.offer(5);
-        queue.offer(12)
+        queue.offer(12);
+        queue.offer(13);
         System.out.println(queue);
     }
 }
