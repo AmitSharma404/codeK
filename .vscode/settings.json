@@ -1,0 +1,20 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySql Local",
+            "database": "collage",
+            "username": "root",
+            "password": "12345678",
+            "connectionTimeout": 30
+        }
+    ]
+}
