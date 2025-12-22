@@ -10,6 +10,7 @@ public class queue {
         queue.offer(4.2);
         queue.offer(6.4);
         queue.offer(4.3);
+        queue.offer(2.1);
         // queue.poll();
         queue.offer(5.4);
         queue.poll();
