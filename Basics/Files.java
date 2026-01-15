@@ -7,7 +7,6 @@ public class Files {
             File file = new File("data.txt");
             if(file.createNewFile()){
                 System.out.println("File Created");
-                file.canWrite();
             } else {
                 System.out.println("File is not created");
             }
