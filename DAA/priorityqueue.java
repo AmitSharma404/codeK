@@ -7,12 +7,12 @@ import java.util.Queue;
 public class priorityqueue {
     public static void main(String[] args) {
         
-        PriorityQueue<Double> queue = new LinkedList<Double>();
-        queue.offer(10);
-        queue.offer(3);
-        queue.offer(5);
-        queue.offer(12);
-        queue.offer(13);
+        PriorityQueue<Double> queue = new PriorityQueue<Double>();
+        queue.offer(10.2);
+        queue.offer(3.1);
+        queue.offer(5.2);
+        queue.offer(12.3);
+        queue.offer(13.1);
         System.out.println(queue);
     }
 }
