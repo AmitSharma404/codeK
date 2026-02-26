@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int addSum(int arr[],int k){
     int sum  = 0;
     for(int i = 0;i<k;i++){
