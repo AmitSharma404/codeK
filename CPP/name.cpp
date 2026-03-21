@@ -13,3 +13,7 @@ int main () {
     cout << "You entered: " << add(a,b) << endl;
     return 0;
 }
+
+int16_t noice(){
+    
+}
