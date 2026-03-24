@@ -1,5 +1,17 @@
 package Basics;
 
+class Computer {
+    String RAM;
+    String Processor;
+    Integer price;
+
+    public void details(){
+        System.out.println("The RAM is :" + this.RAM + " \n" + "the price is: Rs " + this.price);
+    }
+
+    
+}
+
 public class Calculator {
 
     public int add(int x, int y){
@@ -8,6 +20,13 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
+
+        Computer computer = new Computer();
+        computer.Processor = "i3";
+        computer.RAM = "16GB";
+        computer.price = 32000;
+
+        computer.details();
         
         Calculator calc = new Calculator();
 
