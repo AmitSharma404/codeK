@@ -1,16 +1,13 @@
 
-class Array{
-
-    public static int length(String[] arr){
-        return arr.length;
-    }
+class Array {
     public static void main(String[] args) {
-        String[] fruits = {"Apple", "Banana", "Cherry"};
+        int [][] nums = new int[3][4];
 
-        fruits[2] = "orange";
-
-        for (String fruit : fruits){
-            System.out.println(fruit);
+        for(int i =0;i<3;i++){
+            for(int j=0;j<4;j++){
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
         }
-}
+    }
 }
