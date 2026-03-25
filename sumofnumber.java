@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class  sumofnumber {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         int sum = 0;
         int m;
 

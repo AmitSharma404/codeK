@@ -12,7 +12,7 @@ class Dog extends Animal{
 }
 
 public class inheritence {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         Dog d  = new Dog();
         d.Bark();
         d.eat();

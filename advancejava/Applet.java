@@ -2,7 +2,7 @@ package advancejava;
 import java.awt.*;
 import java.awt.event.*;
 public class Applet{
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
     Frame frame = new Frame("Basic Program");
     Label label = new Label("Hello World");
     Button button =  new Button("Click Me!");

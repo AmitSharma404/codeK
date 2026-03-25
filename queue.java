@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class queue {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         
         Queue<Double> queue = new LinkedList<Double>();
 

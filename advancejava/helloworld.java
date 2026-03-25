@@ -6,7 +6,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 public class helloworld{
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         Frame frame = new Frame("Basic Program");
         Label label = new Label("Hello World!");
 

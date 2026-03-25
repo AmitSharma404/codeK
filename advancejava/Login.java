@@ -53,7 +53,7 @@ public class Login extends Swing {
         setResizable(false);
     }
 
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         Login L = new Login();
     }
 }

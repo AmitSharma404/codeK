@@ -18,7 +18,7 @@ class Rectangle extends Shape{
 
 
 public class single {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         Rectangle Obj = new Rectangle();
         Square Sq = new Square();
         Sq.AreaSqu();

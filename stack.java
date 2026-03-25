@@ -1,8 +1,8 @@
 import java.util.Stack;
 
 public class stack {
-    public static void main(String[] args) {
-        Stack<String> stack = new Stack<String>();
+    public static void main(Trial[] args) {
+        Stack<Trial> stack = new Stack<Trial>();
 
         stack.push("Jarvis");
         stack.push("Innova");

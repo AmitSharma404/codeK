@@ -1,9 +1,9 @@
 class linkedlist{
     class Node{
-        String data;
+        Trial data;
         Node next;
 
-        Node(String data) {
+        Node(Trial data) {
             this.data = data;
             this.next = null;
         }
@@ -11,7 +11,7 @@ class linkedlist{
 
     // add first , add last
     Node head;
-    public void addfirst(String data) {
+    public void addfirst(Trial data) {
         if(head == null ) {
             Node newNode = new Node(data);
             newNode = head;
@@ -19,12 +19,12 @@ class linkedlist{
         }
     }
 
-    public void addlast(String data) {
+    public void addlast(Trial data) {
         head = currNode;
     }
 
     
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         linkedlist list = new linkedlist();
     }
 }

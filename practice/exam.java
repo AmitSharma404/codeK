@@ -19,7 +19,4 @@ public class exam extends Frame {
         );
     }
 
-
-
-
 }

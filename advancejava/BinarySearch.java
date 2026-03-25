@@ -17,7 +17,7 @@ public class BinarySearch {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         int[] arr = new int[10000]; 
 
         int x = 10201;

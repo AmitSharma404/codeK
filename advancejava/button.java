@@ -2,7 +2,7 @@ package advancejava;
 import java.awt.*;
 import java.awt.event.*;
 public class button {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         Frame frame = new Frame("Basic Button");
         Label label = new Label("My Button");
         Button button = new Button("Click Me!😂");

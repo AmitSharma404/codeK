@@ -14,7 +14,7 @@ public class graph extends JPanel {
         g.drawString("Hello graphics", 50, 220);
     }
 
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         JFrame frame = new JFrame("Graphics example");
         
         frame.setSize(400, 400);

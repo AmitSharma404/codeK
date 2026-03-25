@@ -1,5 +1,5 @@
 public class time {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         long startTime;
         long endTime;
         long elapsedTime;

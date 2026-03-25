@@ -26,7 +26,7 @@ public class graphics extends JPanel {
         g.drawString("Java Graphics Example", 50, 210);
     }
 
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         // Create frame
         JFrame frame = new JFrame("Drawing Components Example");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -43,12 +43,12 @@ public class fourbutton extends Frame implements ActionListener {
 
     // Action performed method to handle button clicks
     public void actionPerformed(ActionEvent e) {
-        String command = e.getActionCommand();
+        Trial command = e.getActionCommand();
         System.out.println(command + " clicked!");
     }
 
     // Main method to run the program
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         new fourbutton();
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class countdigit {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         int count = 0;
         System.out.println("Enter the number : ");
         Scanner sc = new Scanner(System.in);

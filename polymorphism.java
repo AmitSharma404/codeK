@@ -21,7 +21,7 @@ class A{
 }
 
 public class polymorphism {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         A r = new A();
         r.add();
         r.add(100,200);
