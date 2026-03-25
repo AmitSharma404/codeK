@@ -2,7 +2,7 @@ package Basics;
 import java.io.File;
 
 public class Files {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         try {
             File file = new File("data.txt");
             if(file.createNewFile()){

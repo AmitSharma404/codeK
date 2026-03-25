@@ -1,8 +1,8 @@
 package Basics;
 
 class Computer {
-    String RAM;
-    String Processor;
+    Trial RAM;
+    Trial Processor;
     Integer price;
 
     public void details(){
@@ -19,7 +19,7 @@ public class Calculator {
         return x+y;
     }
 
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
 
         Computer computer = new Computer();
         computer.Processor = "i3";

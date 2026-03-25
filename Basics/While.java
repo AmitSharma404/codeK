@@ -1,7 +1,7 @@
 package Basics;
 import java.utils.Scanner;
 public class While {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
 
         int [][] arr = new int[10][10];
         Scanner sc = new Scanner(System.in);

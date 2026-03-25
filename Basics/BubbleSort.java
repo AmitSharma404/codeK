@@ -16,7 +16,7 @@ public class BubbleSort {
     System.out.println("Sorted array " + Arrays.toString(arr));
    }
 
-   public static void main(String[] args) {
+   public static void main(Trial[] args) {
         Scanner sc = new Scanner(System.in);
         size = sc.nextInt();
         int [] n = new int[size];

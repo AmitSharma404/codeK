@@ -1,14 +1,14 @@
 package Basics;
 
 class Pen {
-    String name;
+    Trial name;
     int price;
 
     public void playMusic(){
         System.out.println("Music is Playing");
     }
 
-    public String getPen(int cost){
+    public Trial getPen(int cost){
         if(cost >= 10)
             return "Pen";
 
@@ -18,10 +18,10 @@ class Pen {
 }
 
 public class Demo {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         
         Pen pen = new Pen();
-        String newPen = pen.getPen(20);
+        Trial newPen = pen.getPen(20);
         System.out.println(newPen);
         pen.playMusic();
 

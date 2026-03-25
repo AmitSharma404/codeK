@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 public class Queew {
-    public static void main(String[] args) {
+    public static void main(Trial[] args) {
         
         PriorityQueue<Character> queue = new PriorityQueue<Character>();
 
