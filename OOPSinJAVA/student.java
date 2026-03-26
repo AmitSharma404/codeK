@@ -1,11 +1,15 @@
 package OOPSinJAVA;
 
 class Human{
-    private String name = "Amit";
-    private int age = 20;
+    private String name;
+    private int age;
     private double balance;
 
-    public void details(){
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void getdetails(){
         System.out.println(this.name + " \n age:  " + this.age);
     }
 
@@ -21,9 +25,12 @@ class Human{
             this.balance += amount;
         }
     }
+    public void setAge(int a){
+        this.age = a;
+    }
 
     public void withdraw(double amount){
-        if(amount > 0){
+        if(amount <= balance){
             this.balance -= amount;
         }
     }
@@ -32,9 +39,13 @@ class Human{
 public class Student {
     public static void main(String[] args){
         Human human = new Human();
-        human.details();
-        human.BankAccount(2000000);
-        double balance = human.getBalance();
-        System.out.println(balance);
+        human.setAge(20);
+        human.setName("Amit Sharma");
+        human.getdetails();
+        human.BankAccount(20000);
+        human.withdraw(10000);
+        System.out.println(human.getBalance());
+        human.deposit(3000);
+        System.out.println(human.getBalance());
     }
 }
