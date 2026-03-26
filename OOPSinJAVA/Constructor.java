@@ -1,43 +1,64 @@
 package OOPSinJAVA;
 
 
-class Hooman{
+// // class Hooman{
 
-    private String name;
-    private int age;
+//     private String name;
+//     private int age;
 
-    public Hooman(){
-        name = "David";
-        age = 22;
+//     public Hooman(){
+//         name = "David";
+//         age = 22;
+//     }
+
+//     public Hooman(int age,String name){
+//         this.name = name;
+//         this.age = age;
+//     }
+
+//     public void setAge(int age){
+//         this.age = age;
+//     }
+
+//     public void getDetails(){
+//         System.out.println(this.name + "\n" + this.age);
+//     }
+
+//     public void setName(String name){
+//         this.name = name;
+//     }   
+
+// }
+
+class Mobile{
+    static String brandName;
+    int price;
+    String network;
+
+    public Mobile(){
+        brandName = "Lava Agni 5";
+        price = 16000;
+        network = "5g";
     }
 
-    public Hooman(int age,String name){
-        this.name = name;
-        this.age = age;
-    }
-
-    public void setAge(int age){
-        this.age = age;
+    public Mobile(String brandName,int price,String network){
+        this.brandName = brandName;
+        this.price = price;
+        this.network = network;
     }
 
     public void getDetails(){
-        System.out.println(this.name + "\n" + this.age);
+        System.out.println(brandName + " " + this.price + " " + this.network);
     }
-
-    public void setName(String name){
-        this.name = name;
-    }   
-
 }
-
 public class Constructor {
     public static void main(String[] args) {
 
-        Hooman hooman = new Hooman();
-        Hooman hooman1 = new Hooman(14,"Naman");
-
-        hooman1.getDetails();
-        hooman.getDetails();
+        Mobile mobile = new Mobile();
+        Mobile mobile2 = new Mobile("Xiaomi 15",99000,"5g");
+        mobile2.getDetails();
+        Mobile.brandName = "Moto g88 power";
+        mobile.getDetails();
         
     }
 }
