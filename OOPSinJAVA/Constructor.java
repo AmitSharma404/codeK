@@ -47,6 +47,10 @@ class Mobile{
         this.network = network;
     }
 
+    public static void show(Mobile mobile){
+        System.out.println(mobile.brandName);
+    }
+
     public void getDetails(){
         System.out.println(brandName + " " + this.price + " " + this.network);
     }
@@ -56,9 +60,10 @@ public class Constructor {
 
         Mobile mobile = new Mobile();
         Mobile mobile2 = new Mobile("Xiaomi 15",99000,"5g");
-        mobile2.getDetails();
+        mobile2.show(mobile);
+        // Mobile.show();
         Mobile.brandName = "Moto g88 power";
-        mobile.getDetails();
+        // mobile.getDetails();
         
     }
 }
