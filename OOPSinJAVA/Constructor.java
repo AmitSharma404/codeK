@@ -52,7 +52,7 @@ class Mobile{
     }
 
     public void getDetails(){
-        System.out.println(brandName + " " + this.price + " " + this.network);
+        System.out.println(this.brandName + " " + this.price + " " + this.network);
     }
 }
 public class Constructor {
