@@ -25,6 +25,6 @@ class Selection{
 
         long elapsedTime = endTime - startTime;
 
-        System.out.println("totalTime: " + elapsedTime + "\tms");
+        System.out.println("\ntotalTime: " + elapsedTime + "\tms");
     }
 }
