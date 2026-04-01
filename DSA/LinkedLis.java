@@ -9,6 +9,8 @@ public class LinkedLis {
         LinkedList<String> Song =  new LinkedList<String>();
 
         Song.offer("Naman");
+        Song.offer("Teri Chunariya");
+        Song.offer("Chahun mai aana");
         for(String ch:Song){
             System.out.println("Char: "+ ch);
         }
